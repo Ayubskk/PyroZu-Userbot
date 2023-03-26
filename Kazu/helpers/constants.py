@@ -10,19 +10,18 @@
 class First:
     ALIVE = "`Still Working On Fire 🔥`"
     REPO = """
-**Hey**, __I am using__ ✨ **𝙿𝚈𝚁𝙾𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃** ✨
+**Hey**, __I am using__ ✨ **𝚁𝙰𝙶𝙽𝙰-𝚄𝚂𝙴𝚁𝙱𝙾𝚃** ✨
 
 ✣ **Userbot Version :** `{}`
-✣ **Group Support :** [Kazu Support](t.me/kazusupportgrp)
-✣ **Channel Kazu :** [Kazu Session](t.me/Html12text)
-✣ **Owner Repo :** [Kazu](t.me/kenapatagkazu)
-✣ **Repo :** [PyroZu-Userbot](https://github.com/ionmusic/PyroZu-Userbot)
+✣ **Group Support :** [Ragna Support](t.me/zenzproject)
+✣ **Channel :** [Publik GSI](t.me/publikgsi)
+✣ **Owner :** [Zey](t.me/Archanistz)
 
 
-Powered by [PyroMan-Userbot](https://github.com/mrismanaziz/pyroman-userbot)"""
-    CREATOR = 'I was created by my master <a href="https://github.com/ionmusic/PyroZu-Userbot">Kazu</a> on a rainy day.'
+Powered by [Ragna-Userbot](https://github.com/Ayubskk/PyroZu-Userbot)"""
+    CREATOR = 'I was created by my master <a href="https://github.com/Ayubskk/PyroZu-Userbot">Zey</a> on a rainy day.'
     MSG_ON = """
-⚡ **PyroZu-Userbot Berhasil Di Aktifkan** ⚡
+⚡ **Ragna-Userbot Berhasil Di Aktifkan** ⚡
 ━━
 ➠ **Userbot Version -** `{}`
 ➠ **Ketik** `{}zu` **untuk Mengecheck Bot**
