@@ -70,7 +70,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://telegra.ph/file/9ec2c8127d1b25e13e1dd.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -96,7 +96,7 @@ async def pingme(client: Client, message: Message):
 
 async def karman_function(message: Message, answers):
     msg = (
-        f"𝙿𝚈𝚁𝙾𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 \n"
+        f"𝚁𝙰𝙶𝙽𝙰-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 \n"
         "ㅤㅤsᴛᴀᴛᴜs : ᴘʀᴇᴍɪᴜᴍ ᴀᴋᴛɪғ \n"
         f"ㅤㅤㅤㅤᴍᴏᴅᴜʟᴇs:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤʙᴏᴛ ᴠᴇʀsɪᴏɴ: {BOT_VER} \n"
@@ -106,12 +106,12 @@ async def karman_function(message: Message, answers):
         InlineQueryResultArticle(
             title="zu",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://telegra.ph/file/9ec2c8127d1b25e13e1dd.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url="t.me/kazusupportgrp"), InlineKeyboardButton(text="✨ᴏᴡɴᴇʀ✨", url="t.me/kenapatagkazu")], [InlineKeyboardButton(text="✨ᴍᴇɴᴜ✨", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url="t.me/Zenzproject"), InlineKeyboardButton(text="✨ᴏᴡɴᴇʀ✨", url="t.me/ARCHANISTZ")], [InlineKeyboardButton(text="✨ᴍᴇɴᴜ✨", callback_data="reopen")]]
             ),
         )
     )
@@ -124,7 +124,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/9b992f562b086e221acdd.jpg",
+            thumb_url="https://telegra.ph/file/9ec2c8127d1b25e13e1dd.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
